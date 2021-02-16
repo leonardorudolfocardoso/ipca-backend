@@ -1,0 +1,26 @@
+{
+   "name": "ipca-backend",
+   "version": "1.0.0",
+   "main": "bin/index.js",
+   "author": "Leonardo Rudolfo Cardoso",
+   "license": "MIT",
+   "scripts": {
+      "build": "tsc",
+      "dev": "ts-node-dev ./src/server.ts",
+      "start": "ts-node src/index.ts",
+      "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+   },
+   "dependencies": {
+      "express": "^4.17.1",
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "^0.2.31"
+   },
+   "devDependencies": {
+      "@types/express": "^4.17.11",
+      "@types/node": "^14.14.28",
+      "ts-node": "3.3.0",
+      "ts-node-dev": "^1.1.1",
+      "typescript": "3.3.3333"
+   }
+}
