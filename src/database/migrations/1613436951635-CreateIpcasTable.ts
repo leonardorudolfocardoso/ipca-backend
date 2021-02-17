@@ -9,7 +9,7 @@ export default class CreateIpcasTable1613436951635 implements MigrationInterface
             columns: [
                 {
                     name: 'date',
-                    type: 'date',
+                    type: 'timestamp',
                     isPrimary: true,
                 },
                 {

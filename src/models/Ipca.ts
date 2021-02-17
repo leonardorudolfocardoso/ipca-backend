@@ -2,7 +2,7 @@ import { Column, Entity, PrimaryColumn } from "typeorm";
 
 @Entity('ipcas')
 class Ipca {
-    @PrimaryColumn('date')
+    @PrimaryColumn('timestamp')
     date: Date;
 
     @Column()
