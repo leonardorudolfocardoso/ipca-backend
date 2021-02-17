@@ -1,7 +1,12 @@
 import express, { NextFunction, Request, Response } from 'express';
-import AppError from './errors/AppError';
 
 import routes from './routes/routes';
+
+import AppError from './errors/AppError';
+
+import createConnection from './database';
+
+createConnection();
 
 const app = express();
 

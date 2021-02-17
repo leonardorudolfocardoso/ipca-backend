@@ -3,18 +3,18 @@
    "host": "localhost",
    "port": 5432,
    "username": "postgres",
-   "password": "hype-password",
-   "database": "hype-ipca-database",
+   "password": "docker",
+   "database": "ipca-database",
    "synchronize": true,
    "logging": false,
    "entities": [
-      "src/database/entities/*.ts"
+      "src/models/*.ts"
    ],
    "migrations": [
       "src/database/migrations/*.ts"
    ],
    "cli": {
-      "entitiesDir": "src/database/entities",
+      "entitiesDir": "src/models",
       "migrationsDir": "src/database/migrations"
    }
 }
