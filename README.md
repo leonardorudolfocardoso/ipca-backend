@@ -1,7 +1,3 @@
-# Awesome Project Build with TypeORM
+Backend developed to import IBGE IPCA data to a database.
 
-Steps to run this project:
-
-1. Run `npm i` command
-2. Setup database settings inside `ormconfig.json` file
-3. Run `npm start` command
+Database information is written in ormconfig.json.
